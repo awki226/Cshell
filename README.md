@@ -1,15 +1,6 @@
 # Cshell
-*************************
-*			                  *						
-*	      README		      *
-*	      novsh 		      *
-*     Author:Alex King	*
-*	        	            *
-*************************
-
-
 --------------------------------
-### <h1>    TABLE OF CONTENTS
+# <h1>    TABLE OF CONTENTS
 # <h2> 1.Purpose of application
 # <h3> 2.Files required for compilaiton
 # <h4> 3.How to use novsh
@@ -41,19 +32,25 @@ novsh.cpp
 *Note this was given from Dr. Finkel
 *for function description
 
-# $! anyText
+    $! anyText
 The ! command introduces a comment. novsh ignores all text after the ! to the end of the line. The ! must occur as the first token on the line.
-# $variable = value
+    
+    $variable = value
 Here, variable is any reasonable variable name (starting with a letter, continuing with letters or numbers).
-# $newprompt prompt
+    
+    $newprompt prompt
 Set the shell prompt to any text. The default prompt (including the space at the end) is novsh > .
-# $dir directoryName
+    
+    $dir directoryName
 This command changes novsh's current directory to directoryName
-# $listprocs
+    
+    $listprocs
 This built-in command requests that novsh list all processes running in the background.
-# $bye
+    
+    $bye
 novsh exits with exit status 0.
-# $run cmd param* [<bg>]
+    
+    $run cmd param* [<bg>]
 The user submits a run command to execute a program. 
 The keyword run must appear as the first token on the command line, followed by the command to be executed. 
 Here, cmd is a token that specifies the filename of the program the user wants to execute. 
