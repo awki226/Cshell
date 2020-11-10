@@ -1,13 +1,13 @@
 # Cshell
 --------------------------------
 # <h1>    TABLE OF CONTENTS
-# <h2> 1.Purpose of application
+# <h3> 1.Purpose of application
 # <h3> 2.Files required for compilaiton
-# <h4> 3.How to use novsh
-# <h5> 3.bugs/limitaitons
-# <h6> 4.Refrences
+# <h3> 3.How to use novsh
+# <h3> 3.bugs/limitaitons
+# <h3> 4.Refrences
 --------------------------------
-# <h7> 1.Purpose of novsh
+# <h3> 1.Purpose of novsh
 
 novsh is used as a linux shell reads 
 commands typed by the user and then 
@@ -15,7 +15,7 @@ executes them. It also allows users
 to set variables stored in the shell 
 that can be used in subsequent commands.
 ---------------------------------
-# <h8> 2.Compilation
+# <h3> 2.Compilation
 Use the makefile given with the file:
 novsh.cpp
 
@@ -28,7 +28,7 @@ novsh.cpp
 
 
 --------------------------------
-# <h9> 3.How to use novsh
+# <h3> 3.How to use novsh
 *Note this was given from Dr. Finkel
 *for function description
 
@@ -58,17 +58,19 @@ It is followed by 0 or more tokens specifying parameters.
 The optional <bg> at the end specifies that the program should run in the background, 
 that is, novsh should immediately prompt for and accept the next command. 
 If <bg> is not present, novsh should wait for the program it starts to finish before it prompts for and accepts the next command.
-# assignto variable cmd param*
+
+    $assignto variable cmd param*
 The assignto command executes the program cmd along with its parameters,
 The assignto command does not allow a <bg> option.
+    
 ----------------------------------
-# <h10> 4.bugs/limitations
+# <h3> 4.bugs/limitations
 
 assignto only works with one parameters and fails
 if parameters are greater than 1.
 
 
 ----------------------------------
-# <h11> 5.References
+# <h3> 5.References
 reference: https://en.cppreference.com/w/cpp/utility/program/getenv
 
