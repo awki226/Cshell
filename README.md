@@ -16,14 +16,8 @@ to set variables stored in the shell
 that can be used in subsequent commands.
 ---------------------------------
 # <h3> 2.Compilation
-Use the makefile given with the file:
-novsh.cpp
-
-
-    '''bash
-    make
-    ./novsh
-    '''
+    
+        $gcc cshell.c ./cshell
 
 
 
